@@ -45,18 +45,18 @@ Several **Python-based visualization & GUI options** exist, each with different 
 
 | **Framework**   | **Pros** | **Cons** |
 |---------------|--------|---------|
+| **Jupyter Notebook** | ✅ Interactive, widely used in research | ❌ Not a standalone GUI framework |
+| | ✅ Excellent for prototyping & visualizations | ❌ Limited UI capabilities |
 | **PyQt / PySide** | ✅ Feature-rich | ❌ Complex API |
 | | ✅ Desktop application | ❌ Not web-based |
 | | ✅ Good for large applications | ❌ GPL-licensed (PyQt) |
-| **Dash** | ✅ Web-based | ❌ More complex than Streamlit |
-| | ✅ Well-suited for dashboards | ❌ Callbacks can get complicated |
 | **Streamlit** | ✅ Very easy to use | ❌ Full script reruns make large apps slow |
 | | ✅ Large community support | ❌ Requires workarounds for interactivity |
 | | ✅ Many scientific visualization tools |  |
+| **Dash** | ✅ Web-based | ❌ More complex than Streamlit |
+| | ✅ Well-suited for dashboards | ❌ Callbacks can get complicated |
 | **Shiny (R & PyShiny)** | ✅ Reactive programming model | ❌ Python version (PyShiny) still new |
 | | ✅ Ideal for web apps | ❌ Small Python user base (for now) |
-| **Jupyter Notebook** | ✅ Interactive, widely used in research | ❌ Not a standalone GUI framework |
-| | ✅ Excellent for prototyping & visualizations | ❌ Limited UI capabilities |
 
 Jupyter Notebook is **great for interactive data exploration**, but it's **not suited for standalone applications**.  
 
@@ -98,11 +98,11 @@ Despite Streamlit’s strengths, **it has a major downside**:
 
 ### **🌟 WebAssembly: The Future of Web-Based Python Apps?**  
 
-WebAssembly (WASM) is an exciting **new technology** that allows **running Python apps directly in the browser** without requiring local installation or a backend server.  
+WebAssembly (WASM) is an exciting **new technology** that allows **running Python or R apps directly in the browser** without requiring local installation or a backend server.  
 
 Recent WASM-based projects:  
-- 🟢 **stlite** (Streamlit compiled to WebAssembly) → [stlite GitHub](https://github.com/whitphx/stlite)  
-- 🟢 **PyShiny WebAssembly** → Future support for **running Shiny apps in-browser**.  
+- 🟢 **Stlite** (Streamlit compiled to WebAssembly) → [stlite GitHub](https://github.com/whitphx/stlite)  
+- 🟢 **Shinylive** (Shiny/PyShiny compiled to WebAssembly) → [shinylive GitHub](https://github.com/posit-dev/shinylive)  
 
 #### **🐦 Moorhen: A WebAssembly-Based Molecular Visualization Tool**  
 
@@ -126,11 +126,12 @@ An **exciting example** of WASM in **scientific applications** is **Moorhen**, t
 | **Criteria** | **Best Option** |
 |-------------|----------------|
 | **Fastest to develop** | ✅ **Streamlit** |
+| **Scientific research & prototyping** | ✅ **Jupyter Notebook** |
 | **Large web app (complex interactions)** | ✅ **Dash / PyShiny** |
 | **Standalone desktop app** | ✅ **PyQt / PySide** |
-| **Scientific research & prototyping** | ✅ **Jupyter Notebook** |
-| **Molecular visualization support** | ✅ **Streamlit + `stmol`** |
-| **Next-gen in-browser execution** | ✅ **WASM-based tools like Moorhen** |
+| **Molecular visualization support** | ✅ **Streamlit + `stmol` + `py3dmol` or `streamlit-molstar`** |
+| | ✅ **Jupyter Notebook + `py3dmol` or `nglview` or `pymolstar`** |
+| **Next-gen in-browser execution** | ✅ **WASM-based tools** |
 
 For my needs, **Streamlit was the best choice**, but **PyShiny + WebAssembly** may be the future!  
 
