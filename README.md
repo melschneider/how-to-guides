@@ -1,6 +1,6 @@
 # 📚 How-To Guides for Computational Scientists  
 
-Welcome to my **"how-to-blog"** repository! This collection of blog posts provides **practical guidance** on key topics for **scientific computing**, **data visualization**, and **cross-platform software development** in Python and R.  
+Welcome to my **"how-to-guides"** repository! This collection of blog posts provides **practical guidance** on key topics for **scientific computing**, **data visualization**, and **cross-platform software development** in Python and R.  
 
 Each guide covers **common challenges**, **best practices**, and **real-world solutions** to help you streamline your workflows. 🚀  
 
