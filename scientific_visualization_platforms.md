@@ -127,8 +127,8 @@ An **exciting example** of WASM in **scientific applications** is **Moorhen**, t
 |-------------|----------------|
 | **Fastest to develop** | ✅ **Streamlit** |
 | **Scientific research & prototyping** | ✅ **Jupyter Notebook** |
-| **Large web app (complex interactions)** | ✅ **Dash / PyShiny** |
-| **Standalone desktop app** | ✅ **PyQt / PySide** |
+| **Large web app (complex interactions)** | ✅ **PyShiny** |
+| **Standalone desktop app** | ✅ **PySide** |
 | **Molecular visualization support** | ✅ **Streamlit + `stmol` + `py3dmol` or `streamlit-molstar`** |
 | | ✅ **Jupyter Notebook + `py3dmol` or `nglview` or `pymolstar`** |
 | **Next-gen in-browser execution** | ✅ **WASM-based tools** |
