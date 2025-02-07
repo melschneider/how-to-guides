@@ -33,11 +33,11 @@ This guide explains:
 Choosing the right **GUI framework or visualization platform** is crucial for scientific applications.  
 
 This guide compares:  
-✅ **PyQt/PySide** (Powerful, but complex for web apps).  
-✅ **Dash** (Good for dashboards, but requires more setup).  
-✅ **Streamlit** (Easy to use, great community, but can slow down large apps).  
-✅ **Shiny (R & PyShiny)** (Ideal for reactive UI, but limited Python adoption).  
-✅ **Jupyter Notebook** (Best for interactive analysis, but not a full GUI).  
+- **PyQt/PySide** (Powerful, but complex for web apps).  
+- **Dash** (Good for dashboards, but requires more setup).  
+- **Streamlit** (Easy to use, great community, but can slow down large apps).  
+- **Shiny (R & PyShiny)** (Ideal for reactive UI, but limited Python adoption).  
+- **Jupyter Notebook** (Best for interactive analysis, but not a full GUI).  
 
 The guide also covers:  
 🔹 **Deployment strategies**: Web-based vs. local apps.  
