@@ -199,3 +199,5 @@ By detecting the **running environment** and selecting the most **user-friendly 
 ---
 
 **I hope this post provides insights and help for your app development** 😊  
+
+*Author: Melanie Schneider*
