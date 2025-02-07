@@ -143,3 +143,5 @@ For my needs, **Streamlit was the best choice**, but **PyShiny + WebAssembly** m
 ---
 
 **I hope this post provides insights and help for your app development!** 😊  
+
+*Author: Melanie Schneider*
