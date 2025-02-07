@@ -59,3 +59,4 @@ This guide explains:
 ✅ How to **optimize Streamlit's behavior** with `on_change` callbacks to prevent full-page reruns.  
 
 ---
+Author: Melanie Schneider
