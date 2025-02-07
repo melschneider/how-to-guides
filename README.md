@@ -20,7 +20,8 @@ This guide explains:
 ✅ Best practices for **dependency management**, including:  
    - Using **conda-forge** instead of Anaconda’s default channel.  
    - Using **mamba** for faster environment setup.  
-   - **Avoiding pip/conda conflicts** when installing packages.  
+   - **Avoiding pip/conda conflicts** when installing packages.
+
 ✅ **4 installation methods**, from **fully reproducible Docker builds** to flexible manual setups.  
 
 ---
