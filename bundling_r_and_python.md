@@ -233,4 +233,4 @@ If you’re working on a **multi-language project**, Conda **outperforms PyPI** 
 
 **I hope this post provides insights and help for your developments!** 😊  
 
-Author: Melanie Schneider
+*Author: Melanie Schneider*
