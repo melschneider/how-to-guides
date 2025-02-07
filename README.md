@@ -41,8 +41,8 @@ This guide compares:
 
 The guide also covers:  
 🔹 **Deployment strategies**: Web-based vs. local apps.  
+🔹 **The importance of a contributing community** for custom components and fast development.  
 🔹 **The growing role of WebAssembly (WASM)** in visualization tools.  
-🔹 **Moorhen**: A WASM-based version of **Coot** for molecular modeling.  
 
 ---
 
@@ -50,7 +50,7 @@ The guide also covers:
 🔗 **[Read the full guide](./streamlit_directory_picker.md)**  
 
 ### **Overview**  
-Selecting folders in a **cross-platform** way is **harder than expected**, especially in **Docker**.  
+Implementing folder selection for a **Streamlit app** in a **cross-platform** way is **harder than expected**, especially when run in a **Docker** container.  
 
 This guide explains:  
 ✅ **Native folder dialogs** for macOS (`AppleScript`), Linux (`Tkinter`), and Windows (`Win32 API`).  
